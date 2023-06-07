@@ -16,7 +16,7 @@ body {
     overflow: hidden;
 }
 
-.majic {
+.magic {
    background-color: #f9ca24;
    color: #fff;
    font-family: 'Inter', sans-serif;
@@ -29,4 +29,13 @@ body {
    top: 20px;
    letter-spacing: 1px;
    box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+}
+
+.magic:focus {
+    outline: none;
+}
+
+.magic:active{
+    box-shadow: none;
+    transform: translate(2px);
 }
