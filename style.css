@@ -44,18 +44,28 @@ body {
 .boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     height: 500px;
     width: 500px;
     margin-top: 10rem;
+    transition: .4s ease;
 }
 
-.boxes .big {
+.boxes.big {
    width: 600px;
+   height: 600px;
+}
+
+.boxes.big .box {
+    transform: rotateZ(360deg);
 }
 
 .box {
-    background-color: #f9ca24;
+    background-image: url(https://media1.giphy.com/media/uzOSCSVYB4Vz2oO77M/200w.webp?cid=ecf05e47jz36xmbr02rv0q0e6wuouh0dv4kdmiziwsgc28i0&ep=v1_gifs_search&rid=200w.webp&ct=g);
     height: 125px;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    position: relative;
     width: 125px;
-
+    transition: .4s ease;
 }
