@@ -48,7 +48,7 @@ body {
     height: 500px;
     width: 500px;
     margin-top: 10rem;
-    transition: 0,8s ease;
+    transition: 0.8s ease;
 }
 
 .boxes.big {
