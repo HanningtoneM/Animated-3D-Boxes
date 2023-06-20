@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #0c0e07;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ body {
     height: 500px;
     width: 500px;
     margin-top: 10rem;
-    transition: .4s ease;
+    transition: 0,8s ease;
 }
 
 .boxes.big {
@@ -61,13 +61,13 @@ body {
 }
 
 .box {
-    background-image: url(https://media1.giphy.com/media/uzOSCSVYB4Vz2oO77M/200w.webp?cid=ecf05e47jz36xmbr02rv0q0e6wuouh0dv4kdmiziwsgc28i0&ep=v1_gifs_search&rid=200w.webp&ct=g);
+    background-image: url(https://media3.giphy.com/media/i4dyIwxZ5A0if1jp9g/giphy.webp?cid=ecf05e47jz36xmbr02rv0q0e6wuouh0dv4kdmiziwsgc28i0&ep=v1_gifs_search&rid=giphy.webp&ct=g);
     height: 125px;
     background-repeat: no-repeat;
     background-size: 500px 500px;
     position: relative;
     width: 125px;
-    transition: .4s ease;
+    transition: 0.8s ease;
 }
 
 .box::after {
